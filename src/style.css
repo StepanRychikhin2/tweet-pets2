@@ -1,0 +1,677 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+height: 100%;
+background: linear-gradient(20deg, #1a2a6c,#b21f1f, #fdbb2d);
+animation: gradients 5s ease infinite;
+background-size: 150% 150%;
+}
+button {
+    background: linear-gradient(20deg, #ef32d9,#89fffd, #ec38bc);
+animation: gradients 5s ease infinite;
+background-size: 150% 150%;
+}
+
+input, textarea {
+    background: linear-gradient(20deg, #9CECFB,#65C7F7, #ec38bc);
+animation: gradients 5s ease infinite;
+background-size: 150% 150%;
+}
+
+
+
+@keyframes gradients {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    } 
+}
+
+input {
+    width: 150px;
+    height: 20px;
+    border-radius: 60px;
+    border: 2px solid black;
+}
+
+h2, h3 {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4em;
+}
+.ff {
+    margin-left: 30px;
+}
+.box-out {
+    background: linear-gradient(40deg, #8A2387,#E94057,#fdbb2d);
+    animation: gradients 5s ease infinite;
+    background-size: 150% 150%;
+    border: 2px solid black;
+    box-shadow: inset 1px 1px 4px rgb(0, 0, 0), inset -1px -1px 4px rgb(0, 0, 0);
+}
+button {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1em;
+}
+.small {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+}
+.coments {
+    background: linear-gradient(40deg, #1a2a6c,#b21f1f,#fdbb2d);
+    animation: gradients 5s ease infinite;
+    background-size: 150% 150%;
+   
+    width: 500px;
+    height: auto;
+
+}
+.coment-list{
+    display: flex;
+justify-content: center;
+    align-items: center;
+}
+
+.coment-list .listPets{
+   margin-left: 100px;
+}
+
+p {
+    background: linear-gradient(to top, #ff9a9e, #fad0c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3em;
+}
+.material-icons {
+    padding-left: 20px;
+}
+
+.photo-card {
+    background: linear-gradient(40deg, #000000,#0f9b0f);
+    animation: gradients 5s ease infinite;
+    background-size: 150% 150%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    padding-top: 20px;
+    background-color: rgb(4, 114, 40);
+width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 4px rgb(0, 0, 0), inset -1px -1px 4px rgb(0, 0, 0);
+}
+
+.true {
+    visibility: hidden;
+}
+
+.stats{
+padding-left: 15px;
+    padding-top: 1px;
+}
+
+.listPets {
+    align-items: center;
+}
+
+
+.stats-item{
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+
+    padding-top: 1px;
+}
+.modal-window{
+    position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modal-window .over {
+    position: absolute;
+    top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #000;
+opacity: 0.7;
+z-index: 0;
+}
+
+.mobalADD {
+    background: linear-gradient(20deg, #03001e,#7303c0, #ec38bc, #fdeff9);
+animation: gradients 5s ease infinite;
+background-size: 150% 150%;
+    position: relative;
+z-index: 2;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0,  .5);
+    padding: 30px;
+}
+.btn-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background:  none;
+    opacity: 0.5;
+}
+
+.btn-close:hover {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background:  none;
+    opacity: 1;
+}
+
+.gg {
+
+    color: #fff;
+    background: linear-gradient(20deg, #8E0E00,#1F1C18);
+animation: gradients 5s ease infinite;
+background-size: 150% 150%;
+}
+
+.vv {
+    border-radius: 10px;
+    padding: 4px;
+    color: #fff;
+    background: linear-gradient(20deg, #8E0E00,#1F1C18);
+animation: gradients 5s ease infinite;
+background-size: 150% 150%;
+
+}
+.gost {
+
+display: block;
+}
+
+.boost-header{
+    background: linear-gradient(20deg, #C02425,#F0CB35);
+animation: gradients 5s ease infinite;
+background-size: 150% 150%;
+    padding-top: 0;
+    margin-top: 0;
+    position: fixed;
+top: 0;
+    width: 100%;
+    height: 100px;
+
+    background-color: #ceffcc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.button-sing-in-modal {
+   
+    border: 0;
+}
+
+.button-Sing-up-modal{
+
+    border: 0;
+}
+.button-coment-modal{
+    border: 0;
+    height: 40px;
+    width: 170px;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 1px 1px 6px rgb(139, 37, 37);
+}
+
+.sing-box {
+    margin-left: 650px;
+}
+
+.btn-box{
+    display: flex;
+    gap: 10px;
+}
+
+.button-addopen-modal{
+    width: 170px;
+    height: 40px;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 1px 1px 6px rgb(139, 37, 37);
+}
+
+.button-delete{
+    height: 40px;
+    width: 170px;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 1px 1px 6px rgb(139, 37, 37);
+}
+.button-onovel-modal{
+    height: 40px;
+    width: 170px;
+    border: 0;
+    border-radius: 30px;
+    box-shadow: 1px 1px 6px rgb(139, 37, 37);
+}
+
+.btnADD {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: #e6e6e6;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.btnADD2 {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: #e6e6e6;
+    border-radius: 40px;
+    margin-left: 35px;
+
+    margin-top: 50px;
+}
+.btnADD-box {
+    display: flex;
+}
+.dost-bb {
+gap: 30px;
+    margin-right: 180px;
+    display: flex;
+}
+.ImgUser {
+    border-radius: 60px;
+}
+
+.modal-window2{
+    position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modal-window2 .over {
+    position: absolute;
+    top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #000;
+opacity: 0.7;
+z-index: 0;
+}
+
+.mobalADD2 {
+    background: linear-gradient(20deg, #03001e,#7303c0, #ec38bc, #fdeff9);
+    animation: gradients 5s ease infinite;
+    background-size: 150% 150%;
+    position: relative;
+z-index: 2;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0,  .5);
+    padding: 30px;
+}
+.btn-close2 {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background:  none;
+    opacity: 0.5;
+}
+
+.btn-close2:hover {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background:  none;
+    opacity: 1;
+}
+
+
+.modal-window3{
+    position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modal-window3 .over {
+    position: absolute;
+    top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #000;
+opacity: 0.7;
+z-index: 0;
+}
+
+.mobalADD3 {
+    background: linear-gradient(20deg, #03001e,#7303c0, #ec38bc, #fdeff9);
+    animation: gradients 5s ease infinite;
+    background-size: 150% 150%;
+    position: relative;
+z-index: 2;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0,  .5);
+    padding: 30px;
+}
+.btn-close3 {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background:  none;
+    opacity: 0.5;
+}
+
+.btn-close3:hover {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background:  none;
+    opacity: 1;
+}
+
+
+.modal-window4{
+    position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modal-window4 .over {
+    position: absolute;
+    top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #000;
+opacity: 0.7;
+z-index: 0;
+}
+
+.mobalADD4 {
+    background: linear-gradient(20deg, #03001e,#7303c0, #ec38bc, #fdeff9);
+    animation: gradients 5s ease infinite;
+    background-size: 150% 150%;
+    position: relative;
+z-index: 2;
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0,  .5);
+    padding: 30px;
+}
+.btn-close4 {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background:  none;
+    opacity: 0.5;
+}
+
+.btn-close4:hover {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background:  none;
+    opacity: 1;
+}
+
+
+.modal-window-log{
+    position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modal-window-log .over {
+    position: absolute;
+    top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #000;
+opacity: 0.7;
+z-index: 0;
+}
+
+.mobalLog {
+
+    background: linear-gradient(20deg, #03001e,#7303c0, #ec38bc, #fdeff9);
+    animation: gradients 5s ease infinite;
+    background-size: 150% 150%;
+    position: relative;
+z-index: 2;
+    background-color: white;
+    width: 300px;
+    height: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0,  .5);
+    padding: 30px;
+}
+
+.mobalLog h3 {
+    margin-left: 50px;
+}
+.btn-closelog {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background:  none;
+    opacity: 0.5;
+}
+
+.btn-closelog:hover {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background:  none;
+    opacity: 1;
+}
+
+
+.modal-window-reg{
+    position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modal-window-reg .over {
+    position: absolute;
+    top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #000;
+opacity: 0.7;
+z-index: 0;
+}
+
+.mobalreg {
+    background: linear-gradient(20deg, #03001e,#7303c0, #ec38bc, #fdeff9);
+    animation: gradients 5s ease infinite;
+    background-size: 150% 150%;
+    position: relative;
+z-index: 2;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0,  .5);
+    padding: 30px;
+}
+.btn-closereg {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background:  none;
+    opacity: 0.5;
+}
+
+.btn-closereg:hover {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background:  none;
+    opacity: 1;
+}
+.btnreg{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: #e6e6e6;
+    border-radius: 40px;
+    margin-left: 35px;
+
+    margin-top: 50px;
+}
+
+.btnLog{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: #e6e6e6;
+    border-radius: 40px;
+    margin-left: 35px;
+
+    margin-top: 50px;
+}
+.btnEd3 {
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: #e6e6e6;
+    border-radius: 40px;
+    margin-left: 35px;
+
+    margin-top: 50px;
+}
+
+
+
+.modal-window-com{
+    position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.modal-window-com .over {
+    position: absolute;
+    top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #000;
+opacity: 0.7;
+z-index: 0;
+}
+
+.mobalcom {
+    background: linear-gradient(20deg, #03001e,#7303c0, #ec38bc, #fdeff9);
+    animation: gradients 5s ease infinite;
+    background-size: 150% 150%;
+    position: relative;
+z-index: 2;
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0,  .5);
+    padding: 30px;
+}
+.btn-closecom {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background:  none;
+    opacity: 0.5;
+}
+
+.btn-closecom:hover {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+    background:  none;
+    opacity: 1;
+}
+.btncom{
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: #e6e6e6;
+    border-radius: 40px;
+    margin-left: 35px;
+
+    margin-top: 50px;
+}

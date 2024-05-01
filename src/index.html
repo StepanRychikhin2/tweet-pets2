@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="boost-header">
+      <div class="dost-bb">
+        <img
+          class="ImgUser"
+          width="70px"
+          height="70px"
+          src="./gostImg.jpg"
+          alt=""
+        />
+        <p class="gost">Гість</p>
+      </div>
+
+      <div class="btn-box">
+        <button class="button-addopen-modal gg">додати свого улюбленця</button>
+        <button class="button-delete gg">видалити пост</button>
+        <button class="button-onovel-modal gg">оновити пост</button>
+        <button class="button-coment-modal gg">Додати коментар</button>
+      </div>
+      <div class="sing-box">
+        <button class="button-sing-in-modal vv">sing in</button>
+        <button class="button-Sing-up-modal vv">Sing up</button>
+      </div>
+    </header>
+   
+<div class="coment-list">
+  <div class="coments">
+    
+
+  </div>
+    <ul class="listPets"></ul>
+    
+</div>
+    <div class="modal-window true">
+      <div class="mobalADD">
+        <button class="btn-close">X</button>
+        <h2>Ім'я Улюбленця</h2>
+        <input class="titleinput" type="text" />
+        <h2>Ім'я Власника</h2>
+        <input class="genreinput" type="text" />
+        <h2>Можна описати тваринку</h2>
+        <textarea class="directorinput" cols="30" rows="5"></textarea>
+        <h2>Рік народження</h2>
+        <input class="yearinput" type="number" /><br />
+        <div class="btnADD-box">
+          <button type="button" class="btnADD">відправити</button>
+        </div>
+      </div>
+      <div class="over"></div>
+    </div>
+
+
+
+
+    <div class="modal-window2 true">
+      <div class="mobalADD2">
+        <button class="btn-close2">X</button>
+
+        <h2>ID поста якого хочете видалити </h2>
+        <p>видалення відбувається за ID ви знайдете в низу поста</p>
+        <input class="inputdel" type="text" />
+        <div class="btnADD-box2">
+          <button type="button" class="btnADD2">відправити</button>
+        </div>
+      </div>
+      <div class="over"></div>
+    </div>
+
+
+
+
+
+
+
+
+    
+
+    <div class="modal-window3 true">
+      <div class="mobalADD3">
+        <button class="btn-close3">X</button>
+        <h2>ID поста якого хочете оновити </h2>
+        <p>оновлення відбувається за ID ви знайдете в низу поста</p>
+        <input class="inputed" type="text" />
+        <div class="btnADD-box3">
+          <button type="button" class="btnEd3">ОНОВИТИ</button>
+        </div>
+      </div>
+      <div class="over"></div>
+    </div>
+
+
+
+
+    <div class="modal-window4 true">
+      <div class="mobalADD4">
+        <button class="btn-close4">X</button>
+        <h2>змінити Ім'я Улюбленця</h2>
+        <input class="titleinput4" type="text" />
+        <h2> змінити Ім'я Власника</h2>
+        <input class="genreinput4" type="text" />
+        <h2> змінити Можна описати тваринку</h2>
+        <textarea class="directorinput4" cols="30" rows="5"></textarea>
+        <h2>змінити Рік народження</h2>
+        <input class="yearinput4" type="number" /><br />
+        <div class="btnADD-box">
+          <button type="button" class="btnADD4">відправити</button>
+        </div>
+      </div>
+      <div class="over"></div>
+    </div>
+
+
+    <div class="modal-window-log true">
+      <div class="mobalLog">
+<h3 >Заєреструватися</h2>
+        <button class="btn-closelog">X</button>
+        <h2>Ваше Ім'я </h2>
+        <input class="nameinplog" type="text" />
+        <h2>пароль</h2>
+        <input class="passinplog" type="password" />
+        
+
+        <div class="btnADD-box">
+          <button type="button" class="btnLog">відправити</button>
+        </div>
+      </div>
+      <div class="over"></div>
+    </div>
+
+
+
+
+
+    <div class="modal-window-reg true">
+      <div class="mobalLog">
+        <h3 >Ввійтии в акаунт</h2>
+        <button class="btn-closereg">X</button>
+        <h2>Ваше Ім'я </h2>
+        <input class="nameinpreg" type="text" />
+        <h2>пароль</h2>
+        <input class="passinpreg" type="password" />
+        
+
+        <div class="btnADD-box">
+          <button type="button" class="btnreg">відправити</button>
+        </div>
+      </div>
+      <div class="over"></div>
+    </div>
+
+
+
+
+    <div class="modal-window-com true">
+      <div class="mobalcom">
+        <h3 >Коментар</h2>
+        <button class="btn-closecom">X</button>
+        <h2>Ваше Ім'я </h2>
+        <input class="nameinpcom" type="text" />
+        <h2>Коментар</h2>
+        <!-- <textarea class="passinpcom" type="text" /> -->
+        <textarea class="passinpcom" cols="35"  rows="5"></textarea>
+
+        <div class="btnADD-box">
+          <button type="button" class="btncom">відправити</button>
+        </div>
+      </div>
+      <div class="over"></div>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

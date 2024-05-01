@@ -1,0 +1,32 @@
+{
+  "petsUser": [
+    {
+      "namePets": "Дупик",
+      "owner": "Ілля",
+      "director": "красунчик",
+      "year": "2024",
+      "id": "987e"
+    },
+    {
+      "id": "a663",
+      "namePets": "awd",
+      "owner": "awd",
+      "director": "awd",
+      "year": "1344"
+    },
+    {
+      "id": "0174",
+      "namePets": "awd",
+      "owner": "awd",
+      "director": "awd",
+      "year": "333"
+    },
+    {
+      "id": "acbe",
+      "namePets": "awd",
+      "owner": "awd",
+      "director": "awd",
+      "year": "2222"
+    }
+  ]
+}
