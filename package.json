@@ -5,12 +5,10 @@
   "source": "src/index.html",
   "homepage": "https://github.com/StepanRychikhin2/tweet-pets2",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel public/index.html --open",
-    "ser": "json-server -w tweetPets.json",
+    "start": "parcel ./public/*.html",
+    "predeploy": "rm -rf dist && parcel build ./public/*.html --public-url ./",
     "deploy": "gh-pages -d dist",
-    "build": "parcel build public/index.html",
-    "dev": "node index.html"
+    "server": "npx json-server ./tweetPets.json"
   },
   "keywords": [],
   "author": "",

@@ -1,0 +1,619 @@
+body {
+  background: linear-gradient(20deg, #1a2a6c, #b21f1f, #fdbb2d) 0 0 / 150% 150%;
+  border: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  animation: 5s infinite gradients;
+}
+
+button {
+  background: linear-gradient(20deg, #ef32d9, #89fffd, #ec38bc) 0 0 / 150% 150%;
+  animation: 5s infinite gradients;
+}
+
+input, textarea {
+  background: linear-gradient(20deg, #9cecfb, #65c7f7, #ec38bc) 0 0 / 150% 150%;
+  animation: 5s infinite gradients;
+}
+
+@keyframes gradients {
+  0% {
+    background-position: 0;
+  }
+
+  50% {
+    background-position: 100%;
+  }
+
+  100% {
+    background-position: 0;
+  }
+}
+
+input {
+  border: 2px solid #000;
+  border-radius: 60px;
+  width: 150px;
+  height: 20px;
+}
+
+h2, h3 {
+  font-family: Play, sans-serif;
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ff {
+  margin-left: 30px;
+}
+
+.box-out {
+  background: linear-gradient(40deg, #8a2387, #e94057, #fdbb2d) 0 0 / 150% 150%;
+  border: 2px solid #000;
+  animation: 5s infinite gradients;
+  box-shadow: inset 1px 1px 4px #000, inset -1px -1px 4px #000;
+}
+
+button {
+  font-family: Play, sans-serif;
+  font-size: 1.1em;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.small {
+  font-family: Play, sans-serif;
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.coments {
+  background: linear-gradient(40deg, #1a2a6c, #b21f1f, #fdbb2d) 0 0 / 150% 150%;
+  width: 500px;
+  height: auto;
+  animation: 5s infinite gradients;
+}
+
+.coment-list {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.coment-list .listPets {
+  margin-left: 100px;
+}
+
+p {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to top, #ff9a9e, #fad0c4);
+  -webkit-background-clip: text;
+  font-family: Play, sans-serif;
+  font-size: 1.3em;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.material-icons {
+  padding-left: 20px;
+}
+
+.photo-card {
+  background: #047228 linear-gradient(40deg, #000, #0f9b0f) 0 0 / 150% 150%;
+  border-radius: 20px;
+  width: 400px;
+  height: 350px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  animation: 5s infinite gradients;
+  box-shadow: inset 1px 1px 4px #000, inset -1px -1px 4px #000;
+}
+
+.true {
+  visibility: hidden;
+}
+
+.stats {
+  padding-top: 1px;
+  padding-left: 15px;
+}
+
+.listPets {
+  align-items: center;
+}
+
+.stats-item {
+  color: #fff;
+  margin-left: 20px;
+  padding-top: 1px;
+}
+
+.modal-window {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-window .over {
+  opacity: .7;
+  z-index: 0;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mobalADD {
+  z-index: 2;
+  background: #fff linear-gradient(20deg, #03001e, #7303c0, #ec38bc, #fdeff9) 0 0 / 150% 150%;
+  border-radius: 10px;
+  width: 300px;
+  height: 500px;
+  padding: 30px;
+  animation: 5s infinite gradients;
+  position: relative;
+  box-shadow: 0 0 10px #00000080;
+}
+
+.btn-close {
+  opacity: .5;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn-close:hover {
+  opacity: 1;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.gg {
+  color: #fff;
+  background: linear-gradient(20deg, #8e0e00, #1f1c18) 0 0 / 150% 150%;
+  animation: 5s infinite gradients;
+}
+
+.vv {
+  color: #fff;
+  background: linear-gradient(20deg, #8e0e00, #1f1c18) 0 0 / 150% 150%;
+  border-radius: 10px;
+  padding: 4px;
+  animation: 5s infinite gradients;
+}
+
+.gost {
+  display: block;
+}
+
+.boost-header {
+  background: #ceffcc linear-gradient(20deg, #c02425, #f0cb35) 0 0 / 150% 150%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  margin-top: 0;
+  padding-top: 0;
+  animation: 5s infinite gradients;
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+.button-sing-in-modal, .button-Sing-up-modal {
+  border: 0;
+}
+
+.button-coment-modal {
+  border: 0;
+  border-radius: 30px;
+  width: 170px;
+  height: 40px;
+  box-shadow: 1px 1px 6px #8b2525;
+}
+
+.sing-box {
+  margin-left: 650px;
+}
+
+.btn-box {
+  gap: 10px;
+  display: flex;
+}
+
+.button-addopen-modal, .button-delete, .button-onovel-modal {
+  border: 0;
+  border-radius: 30px;
+  width: 170px;
+  height: 40px;
+  box-shadow: 1px 1px 6px #8b2525;
+}
+
+.btnADD {
+  background-color: #e6e6e6;
+  border: 1px solid #000;
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btnADD2 {
+  background-color: #e6e6e6;
+  border: 1px solid #000;
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+
+.btnADD-box {
+  display: flex;
+}
+
+.dost-bb {
+  gap: 30px;
+  margin-right: 180px;
+  display: flex;
+}
+
+.ImgUser {
+  border-radius: 60px;
+}
+
+.modal-window2 {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-window2 .over {
+  opacity: .7;
+  z-index: 0;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mobalADD2 {
+  z-index: 2;
+  background: #fff linear-gradient(20deg, #03001e, #7303c0, #ec38bc, #fdeff9) 0 0 / 150% 150%;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  animation: 5s infinite gradients;
+  position: relative;
+  box-shadow: 0 0 10px #00000080;
+}
+
+.btn-close2 {
+  opacity: .5;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn-close2:hover {
+  opacity: 1;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.modal-window3 {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-window3 .over {
+  opacity: .7;
+  z-index: 0;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mobalADD3 {
+  z-index: 2;
+  background: #fff linear-gradient(20deg, #03001e, #7303c0, #ec38bc, #fdeff9) 0 0 / 150% 150%;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  animation: 5s infinite gradients;
+  position: relative;
+  box-shadow: 0 0 10px #00000080;
+}
+
+.btn-close3 {
+  opacity: .5;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn-close3:hover {
+  opacity: 1;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.modal-window4 {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-window4 .over {
+  opacity: .7;
+  z-index: 0;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mobalADD4 {
+  z-index: 2;
+  background: #fff linear-gradient(20deg, #03001e, #7303c0, #ec38bc, #fdeff9) 0 0 / 150% 150%;
+  border-radius: 10px;
+  width: 300px;
+  height: 500px;
+  padding: 30px;
+  animation: 5s infinite gradients;
+  position: relative;
+  box-shadow: 0 0 10px #00000080;
+}
+
+.btn-close4 {
+  opacity: .5;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn-close4:hover {
+  opacity: 1;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.modal-window-log {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-window-log .over {
+  opacity: .7;
+  z-index: 0;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mobalLog {
+  z-index: 2;
+  background: #fff linear-gradient(20deg, #03001e, #7303c0, #ec38bc, #fdeff9) 0 0 / 150% 150%;
+  border-radius: 10px;
+  width: 300px;
+  height: 320px;
+  padding: 30px;
+  animation: 5s infinite gradients;
+  position: relative;
+  box-shadow: 0 0 10px #00000080;
+}
+
+.mobalLog h3 {
+  margin-left: 50px;
+}
+
+.btn-closelog {
+  opacity: .5;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn-closelog:hover {
+  opacity: 1;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.modal-window-reg {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-window-reg .over {
+  opacity: .7;
+  z-index: 0;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mobalreg {
+  z-index: 2;
+  background: #fff linear-gradient(20deg, #03001e, #7303c0, #ec38bc, #fdeff9) 0 0 / 150% 150%;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  animation: 5s infinite gradients;
+  position: relative;
+  box-shadow: 0 0 10px #00000080;
+}
+
+.btn-closereg {
+  opacity: .5;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn-closereg:hover {
+  opacity: 1;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btnreg, .btnLog, .btnEd3 {
+  background-color: #e6e6e6;
+  border: 1px solid #000;
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+
+.modal-window-com {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal-window-com .over {
+  opacity: .7;
+  z-index: 0;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mobalcom {
+  z-index: 2;
+  background: #fff linear-gradient(20deg, #03001e, #7303c0, #ec38bc, #fdeff9) 0 0 / 150% 150%;
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  padding: 30px;
+  animation: 5s infinite gradients;
+  position: relative;
+  box-shadow: 0 0 10px #00000080;
+}
+
+.btn-closecom {
+  opacity: .5;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn-closecom:hover {
+  opacity: 1;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btncom {
+  background-color: #e6e6e6;
+  border: 1px solid #000;
+  border-radius: 40px;
+  width: 200px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+/*# sourceMappingURL=index.2cdaf7bc.css.map */
